@@ -1,0 +1,90 @@
+html {
+    background: url(background-css.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.container>div {
+    padding: .5rem;
+    height: 450px;
+    width: 750px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    color: #84613D;
+    background: #FDF9EA;
+    border-bottom: 1px solid #F9F2D6;
+    border-right: 1px solid #F9F2D6;
+}
+
+.add-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+input {
+    width: 70%;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 4px;
+    padding: 8px;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+.add-button {
+    background-color: #008CBA;
+    /* Green */
+    height: 36px;
+    border: 1px solid;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.list {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    width: 85%;
+}
+
+li {
+    margin-bottom: 17px;
+}
+
+li:hover {
+    border-bottom: 1px solid #000000;
+}
+
+li span {
+    display: none;
+    color: #008CBA;
+    align-self: flex-end;
+    float: right;
+    cursor: pointer;
+}
+
+li:hover span {
+    display: block;
+}
