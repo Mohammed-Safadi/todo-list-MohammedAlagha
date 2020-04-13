@@ -13,18 +13,19 @@
         <h1>Todo List</h1>
         <div class="todo">
             <div class="add-form">
-                <input type="text" placeholder="Type a todo">
-                <button class="add-button">Add</button>
+                <input type="text" id="text-input" placeholder="Type a todo">
+                <button class="add-button" id="add-button">Add</button>
             </div>
             <div class="list">
-                <ul>
-                    <li>Task 1 <span>Make as Done | Delete</span></li>
-                    <li>Task 2 <span>Make as Done | Delete</span></li>
-                    <li>Task 3 <span>Make as Done | Delete</span></li>
+                <ul id="todo-ul">
+                    <li>Task 1  <button class="delete"> Delete </button> <button class="done">Make as Done</button></li>
                 </ul>
             </div>
         </div>
     </div>
+
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

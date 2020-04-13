@@ -73,11 +73,27 @@ li {
     margin-bottom: 17px;
 }
 
+.done, .delete{
+    margin-right: 3px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.delete{
+    background-color: #f44336 !important;
+}
+
 li:hover {
     border-bottom: 1px solid #000000;
 }
 
-li span {
+li button {
     display: none;
     color: #008CBA;
     align-self: flex-end;
@@ -85,6 +101,6 @@ li span {
     cursor: pointer;
 }
 
-li:hover span {
+li:hover button {
     display: block;
 }
